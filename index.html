@@ -74,7 +74,7 @@
     <section class="py-6 min-vh-100 d-flex align-items-center" id="projects">
         <div class="container">
             <h2 class="display-6 text-center mb-5">Featured Projects</h2>
-            <div class="row g-4">
+            <div class="row g-4" style="padding-bottom: 25px;">
                 <!-- MoodLens -->
                 <div class="col-md-4">
                     <div class="card h-100">
@@ -175,7 +175,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-4">
+            <div class="row g-4"> 
                 <!-- Minimal API Movies -->
                 <div class="col-md-4">
                     <div class="card h-100">
@@ -208,8 +208,48 @@
                             </a>
                         </div>
                     </div>
-                </div>            
-        </div>
+                </div>  
+                <!-- Mango Web Microservices -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="images/MicroservicesApplicationFlow.png" class="card-img-top pointer" alt="Microservices Application Flow Screenshot" data-bs-toggle="modal" data-bs-target="#mangoMicroservicesApplication">
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="mangoMicroservicesApplication" tabindex="-1">
+                            <div class="modal-dialog modal-lg modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Mango Microservices Application Flow Screenshot</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="images/MicroservicesApplicationFlow.png" class="img-fluid" alt="Microservices Application Flow Screenshot">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title mb-3">Mango Microservices Application</h5>
+                            <div class="mb-3">
+                                <span class="project-tag">.NET 8</span>
+                                <span class="project-tag">Microservices</span>
+                                <span class="project-tag">Stripe</span>
+                                <span class="project-tag">Azure Service Bus</span>
+                            </div>
+                            <p class="card-text">
+                                Mango is an online restaurant order system built using .NET 8 and a microservices architecture. 
+                                The system includes seven microservices, such as Product, Shopping Cart, Ordering, Payment, and Email, 
+                                with Stripe integration for payments. Key features include authentication, role-based authorization, 
+                                asynchronous messaging, and a modern MVC web interface styled with Bootstrap 5.
+                            </p>
+                            <a href="https://github.com/gefrank/Mango-Microservices" class="btn btn-custom">
+                                <i class="fab fa-github me-2"></i>View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>                                  
+            </div>
+                
     </section>
 
     <!-- Resume -->
